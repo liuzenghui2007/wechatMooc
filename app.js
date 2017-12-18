@@ -192,5 +192,5 @@ app.use(function* (next) {
 
 app.use(wechat(config.wechat, reply.reply));
 
-app.listen(3001);
-console.log('Listening: 3001');
+app.listen(1234);
+console.log('Listening: 1234');
